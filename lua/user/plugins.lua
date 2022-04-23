@@ -74,6 +74,9 @@ return packer.startup(function(use)
   use 'numToStr/Comment.nvim'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
 
+  -- Emmet for VIM
+  use 'mattn/emmet-vim'
+
   if PACKER_BOOTSTRAP then
     require("packer").sync()
   end
